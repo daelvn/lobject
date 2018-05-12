@@ -10,11 +10,12 @@ Then use it in your source code as
 local lobject = require "lobject"
 ```
 ## Resources
-[Home](Home.md)
-[Creating a class](Creating-a-class.md)
-[Inheritance](Inheritance.md)
-[Mixins](Mixins.md)
-[Typechecking](Typechecking.md)
-[lobject](http://me.daelvn.ga/lobject) is a simple OOP library for Lua.
-Made by [daelvn](http://me.daelvn.ga).
-Using MIT/X11 license.
+[Home](Home.md)  
+[Creating a class](Creating-a-class.md)  
+[Inheritance](Inheritance.md)  
+[Mixins](Mixins.md)  
+[Typechecking](Typechecking.md)  
+
+[lobject](http://me.daelvn.ga/lobject) is a simple OOP library for Lua.  
+Made by [daelvn](http://me.daelvn.ga).  
+Using MIT/X11 license.  

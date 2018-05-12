@@ -62,6 +62,8 @@ instance.windows --> 14
 instance.windows = 12
 instance.windows --> 12
 ```
-`lobject` also allows you to pass an already created object to the `:new` method. The whole constructor function will be skipped if `obj` is specified, so only the metatable will be set.[lobject](http://me.daelvn.ga/lobject) is a simple OOP library for Lua.
-Made by [daelvn](http://me.daelvn.ga).
-Using MIT/X11 license.
+`lobject` also allows you to pass an already created object to the `:new` method. The whole constructor function will be skipped if `obj` is specified, so only the metatable will be set.
+
+[lobject](http://me.daelvn.ga/lobject) is a simple OOP library for Lua.  
+Made by [daelvn](http://me.daelvn.ga).  
+Using MIT/X11 license.  

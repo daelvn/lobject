@@ -37,6 +37,8 @@ local MTalk   = lobject.mixin "MTalk" {
   __mixin_init = function () print "I have been initialized!" end,
   talk = function (s) print (s) end
 }
-```[lobject](http://me.daelvn.ga/lobject) is a simple OOP library for Lua.
-Made by [daelvn](http://me.daelvn.ga).
-Using MIT/X11 license.
+```
+
+[lobject](http://me.daelvn.ga/lobject) is a simple OOP library for Lua.  
+Made by [daelvn](http://me.daelvn.ga).  
+Using MIT/X11 license.  
