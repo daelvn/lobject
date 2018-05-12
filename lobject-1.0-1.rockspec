@@ -11,7 +11,7 @@ description = {
   detailed = [[
     lobject is an OOP library that supports multiple inheritance, mixins, and type checking. You are able to implement metamethods directly as well as modifying the class system yourself.
   ]],
-  homepage = "http://me.daelvn.ga/lobject"
+  homepage = "http://me.daelvn.ga/lobject",
   license  = "MIT/X11"
 }
 
@@ -20,7 +20,7 @@ dependencies = {
 }
 
 build = {
-  type    = "builtin"
+  type    = "builtin",
   modules = {
     lobject = "lobject.lua" 
   }
