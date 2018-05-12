@@ -6,7 +6,7 @@ You can simply clone the repository or install via LuaRocks (to be done)
 ```
 git clone https://github.com/daelvn/lobject
 # Or
-luarocks install <package>
+luarocks install lobject
 ```
 ## Usage
 You can check the [wiki](https://github.com/daelvn/lobject/wiki) to check all possibilities.
