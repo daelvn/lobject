@@ -1,5 +1,5 @@
 package = "lobject"
-version = "1.0-1"
+version = "1.0-2"
 
 source  = {
   url = "git://github.com/daelvn/lobject",
@@ -11,7 +11,7 @@ description = {
   detailed = [[
     lobject is an OOP library that supports multiple inheritance, mixins, and type checking. You are able to implement metamethods directly as well as modifying the class system yourself.
   ]],
-  homepage = "http://me.daelvn.ga/lobject",
+  homepage = "http://lobject.daelvn.ga/",
   license  = "MIT/X11"
 }
 
