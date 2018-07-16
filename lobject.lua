@@ -20,8 +20,11 @@ end
 -- Merge (table:a, table:b) | b -> a
 --  Merges two tables
 function lobject.merge (a, b)
-  for k, v in pairs (b) do a[k] = v end
-  return a
+  if a and b then
+    for k, v in pairs (b) do a[k] = v end
+    return a
+  end
+  return a and a or b
 end
 
 -- Include (Class:to, Class:from)

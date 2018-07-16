@@ -1,9 +1,9 @@
 package = "lobject"
-version = "1.1-1"
+version = "1.1.1-1"
 
 source  = {
   url = "git://github.com/daelvn/lobject",
-  tag = "v1.1"
+  tag = "v1.1.1"
 }
 
 description = {
