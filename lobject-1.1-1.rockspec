@@ -1,9 +1,9 @@
 package = "lobject"
-version = "1.0-2"
+version = "1.1-1"
 
 source  = {
   url = "git://github.com/daelvn/lobject",
-  tag = "v1.0"
+  tag = "v1.1"
 }
 
 description = {
@@ -16,7 +16,7 @@ description = {
 }
 
 dependencies = {
-  "lua >= 5.1 < 5.4"
+  "lua >= 5.2 < 5.4"
 }
 
 build = {

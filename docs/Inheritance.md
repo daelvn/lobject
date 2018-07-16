@@ -12,8 +12,6 @@ We start by thinking that all living beings have an age, which if it is not prov
 Now we will create a `Human` class that will inherit from `Being`, we will do it like this:
 ```lua
 local Human = Class ("Human", Being) (function (argl)
-  -- I haven't been able to implement multiple inheritance in the arguments
-  -- Help is appreciated!
   local object = {}
   object.name = argl.name or "Unknown"
   return object
@@ -28,8 +26,6 @@ print ( daelvn.age  ) --> 14
 We can also implement inheritance using the `.include` method in `lobject`. Let's declare our Human class without the direct inheritance:
 ```lua
 local Human = Class "Human" (function (argl)
-  -- I haven't been able to implement multiple inheritance in the arguments
-  -- Help is appreciated!
   local object = {}
   name = argl.name or "Unknown"
   return object

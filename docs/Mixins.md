@@ -11,8 +11,6 @@ Now you can include this either with the class definition or the `.include` func
 ## Using `lobject.class`
 ```lua
 local Human = Class ("Human", MTalk) (function (argl)
-  -- I haven't been able to implement multiple mixins in the arguments
-  -- Help is appreciated!
   local object = {}
   object.name = argl.name or "Unknown"
   return object
@@ -20,11 +18,8 @@ end)
 ```
 ## Using `lobject.include`
 ```lua
-local Human = Class ("Human", Being) (function (argl)
-  -- I haven't been able to implement multiple mixins in the arguments
-  -- Help is appreciated!
+local Human = Class ("Human", Being, MTalk) (function (argl)
   local object = {}
-  object      = lobjects.include (object, MTalk)
   object.name = argl.name or "Unknown"
   return object
 end)
